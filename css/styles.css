@@ -1,18 +1,24 @@
 body {
+  background: #f8e8a6;
+}
+
+h1,
+p {
   text-align: center;
-  background-color: #f8e8a6;
 }
 
-.pages {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.img {
-  margin-bottom: 30px;
+.croissant-photo {
+  max-width: 100%;
   border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
 
-.links {
-  margin: 10px;
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: green;
 }
